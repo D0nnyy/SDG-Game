@@ -1,0 +1,83 @@
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url('../img/background.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding:0;
+    margin:0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2a8bf3;
+    color: #fff;
+    padding: 10px;
+}
+
+.logo {
+    margin-left: 2rem;
+    width: 25rem;
+}
+
+.tab {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: #0c4171;
+    padding: 15px 25px;
+    border-radius: 4rem;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 5rem;
+}
+
+.background {
+    width: 151.9rem;
+}
+
+.H1tag {
+    margin-top: 20rem;
+    font-size: 7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.H2tag {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin-top: 5rem;
+    margin-left: 66rem;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    padding: 0 30px;
+    border-radius: 50px;
+    min-width: 200px;
+    height: 50px;
+    font-size: 2rem;
+    background-color: white;
+    font-weight: bold;
+    color: #2a8bf3;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px;
+}
+
+.button:active {
+    transform: translateY(5px);
+}
