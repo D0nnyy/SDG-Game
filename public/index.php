@@ -10,8 +10,11 @@
 <body>
    <header>
     <div class="header">
+        <a href="../../index.php">
         <img class="logo" src="img/NVVNLogo.png" alt="NVVN Logo">
-        <a class="tab" href="#">Over NVVN</a>
+    </a>
+            <a class="tab" href="https://www.nvvn.org/over-de-nvvn/">Over NVVN</a>
+    </a>
     </div>
    </header>
     <figcaption>
