@@ -5,7 +5,4 @@ if ($conn->connect_error) {
     die("". $conn->connect_error);
 }
 
-$rows = $conn->query("SELECT * FROM sdgs");
-foreach($rows as $row) {
-    include("views/sdg.php");
-}
+define("SQL", $conn);

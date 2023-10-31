@@ -1,3 +1,9 @@
+<?php
+
+include_once("../source/database.php");
+
+?>
+
 <!DOCTYPE html>
 <html lang="nl">
 
@@ -7,6 +13,7 @@
     <title>SDG's</title>
     <link rel="icon" type="image/x-icon" href="../img/favicon-16x16.png">
     <link rel="stylesheet" href="css/sdgpage.css">
+    <script defer src="script.js"></script>
 </head>
 
 <body>
@@ -20,6 +27,12 @@
         </div>
     </header>
     
+    <?php
+        $rows = SQL->query("SELECT * FROM sdgs ORDER BY title");
+        while ($row = $rows->fetch_assoc()) {
+            include("../source/views/sdg.php");
+        }
+    ?>
 </body>
 
 </html>

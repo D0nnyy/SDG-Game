@@ -37,3 +37,12 @@ body {
     color: #fff;
     margin-right: 5rem;
 }
+
+.sdg {
+    display: none;
+    width: 100px;
+}
+
+.sdg-img {
+    width: 100%;
+}
