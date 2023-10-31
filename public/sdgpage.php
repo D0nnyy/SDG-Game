@@ -26,6 +26,9 @@ include_once("../source/database.php");
             </a>
         </div>
     </header>
+    <h1 class="h1sdg" >
+        3 Random SDG's!
+    </h1>
     
     <?php
         $rows = SQL->query("SELECT * FROM sdgs ORDER BY title");
