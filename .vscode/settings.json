@@ -1,0 +1,24 @@
+{
+    "favorites.resources": [
+        {
+            "filePath": "public\\css\\style.css",
+            "group": "Default"
+        },
+        {
+            "filePath": "source\\config.php",
+            "group": "Default"
+        },
+        {
+            "filePath": "public\\index.php",
+            "group": "Default"
+        },
+        {
+            "filePath": "docker-compose.yml",
+            "group": "Default"
+        },
+        {
+            "filePath": "source\\views\\sdgpage.php",
+            "group": "Default"
+        }
+    ]
+}
