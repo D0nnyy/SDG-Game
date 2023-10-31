@@ -1,0 +1,4 @@
+.env
+docker/mysqldata/*
+!docker/mysqldata/.gitkeep
+.DS_Store
