@@ -31,7 +31,7 @@ include_once("../source/database.php");
     </h1>
     
     <?php
-        $rows = SQL->query("SELECT * FROM sdgs ORDER BY title");
+        $rows = SQL->query("SELECT * FROM sdgs ORDER BY id");
         while ($row = $rows->fetch_assoc()) {
             include("../source/views/sdg.php");
         }
