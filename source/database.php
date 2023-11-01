@@ -1,6 +1,6 @@
 <?php
 
-$conn = new mysqli("mariadb", "db_user", "mijn_p@ss#", "voorbeeld_db");
+$conn = new mysqli("db", "db_user", "mijn_p@ss#", "voorbeeld_db1");
 if ($conn->connect_error) {
     die("". $conn->connect_error);
 }
