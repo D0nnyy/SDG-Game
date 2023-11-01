@@ -26,9 +26,10 @@
             en om challenges uit te voeren zodat zij kennis maken met alle SDG’s<br>
             volgens de Nederlandse maatstaven.</h2>
     </figcaption>
+    <div class="buttondiv">
     <a href="sdgpage.php">
         <button class="button">Start hier!</button>
-    </a>
+    </a></div>
 </body>
 
 </html>
