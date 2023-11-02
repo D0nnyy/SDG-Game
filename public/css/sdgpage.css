@@ -72,6 +72,8 @@ body {
 }
 
 .sdg-img {
+    object-fit: contain;
+    height: 100%;
     width: 100%;
 }
 
@@ -106,7 +108,34 @@ p{
     text-shadow: rgba(0, 0, 0, 0.25) 2px 8px;
     margin-top: 12rem;
 }
-
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .buttonsdg {
-    background-color: red;
+    padding: 1.5rem 3rem;
+}
+
+@media screen and (max-width: 50rem) {
+    .button{
+        position: absolute;
+        right: 3rem;
+        top: 30rem;
+    }
+    h2{
+       display: none;
+    }
+    p{
+        position: absolute;
+        left: 2.5rem;
+        top: 30rem;
+    }
+    .sdg-img{
+        object-fit: contain;
+        width: 50%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+    }
 }

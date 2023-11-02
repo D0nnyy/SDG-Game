@@ -4,9 +4,7 @@
 </div>
 
 <div class="modal" id="modal-sdg<?=$row['id']?>">
-    <button  class="buttonsdg" type="button" id="backbtn" onclick='window.location.reload()'>
-        Back!
-    </button><
+
     
     <div>
         <img class="sdg-img" src="<?=$row['img']?>"></img>
@@ -14,4 +12,9 @@
     <ul>
     <h2><?=$row["title"]?></h2>
     <p><?=$row["about"]?><p>
+    <div class=button>
+        <button  class="buttonsdg" type="button" id="backbtn" onclick='window.location.reload()'>
+        Back!
+        </button>
+    </div>
 </div></ul>
