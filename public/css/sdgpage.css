@@ -39,10 +39,13 @@ body {
 }
 
 .h1sdg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 7rem;
+    font-size: 5rem;
     text-align: center;
     text-decoration: solid;
     text-shadow: rgba(0, 0, 0, 0.25) 2px 8px;
@@ -69,9 +72,70 @@ body {
 }
 
 .sdg-img {
+    object-fit: contain;
+    height: 100%;
     width: 100%;
 }
 
 .modal {
     display: none;
+}
+
+h2{
+display: flex;
+   align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: center;
+    text-decoration: solid;
+    text-shadow: rgba(0, 0, 0, 0.25) 2px 8px;
+
+}
+
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: solid;
+    text-shadow: rgba(0, 0, 0, 0.25) 2px 8px;
+    margin-top: 12rem;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonsdg {
+    padding: 1.5rem 3rem;
+}
+
+@media screen and (max-width: 50rem) {
+    .button{
+        position: absolute;
+        right: 3rem;
+        top: 30rem;
+    }
+    h2{
+       display: none;
+    }
+    p{
+        position: absolute;
+        left: 2.5rem;
+        top: 30rem;
+    }
+    .sdg-img{
+        object-fit: contain;
+        width: 50%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+    }
 }
