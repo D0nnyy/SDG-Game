@@ -1,6 +1,8 @@
 
 <div class="sdg" id="sdg<?=$row['id']?>" style="background: <?=$row[' color']?>">
-    <img class="sdg-img" src="<?=$row['img']?>"></img>
+    <a href="/detail.php?id=<?php echo $row['id'] ?>">
+        <img class="sdg-img" src="<?=$row['img']?>"></img>
+    </a>
 </div>
 
 <div class="modal" id="modal-sdg<?=$row['id']?>">
